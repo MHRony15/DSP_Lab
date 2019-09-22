@@ -1,6 +1,6 @@
 
-x=[1,2,1,1]; %first signal 0r input signal
-h=[1,-1,1,-1]; %second signal
+x=[1 2 3]; %first signal 0r input signal
+h=[1 2 3 4]; %second signal
 N1=length(x);
 N2=length(h);
   X=[x,zeros(1,N2)]; %padding of N2 zeros

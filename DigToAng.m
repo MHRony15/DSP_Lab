@@ -1,0 +1,9 @@
+fs=2000;
+ts=1/fs;
+n=0:7;
+xn=5*sin(2*pi*1000*n*ts+(pi/2))
+t=n*ts;
+subplot(2,1,1);
+stem(n,xn);
+xt=d2c(xn);
+xt

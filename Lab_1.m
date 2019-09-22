@@ -1,16 +1,19 @@
+clc;
+close all;
+clear all;
 %Unit sample;
  
   n=-10:10;
   x=[n==0];
   subplot(2 ,3 ,1);
-  stem(x);
+  stem(n,x);
   title('Unit sample Sequence');
   
 %Unit step signal
   n=-10:10;
   x=[n>=0];
   subplot(2, 3 ,2);
-  stem(x);
+  stem(n,x);
   title('Unit Step Sequence');
   
 %Shifting

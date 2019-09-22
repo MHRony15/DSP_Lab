@@ -1,5 +1,5 @@
 t = 1:0.01:8;
-xin = sin(2*pi*1000*t)+0.5*sin(2*pi*2000*t+3*pi/4);
+xin = sin(2*pi*1000*t)+0.5*sin(2*pi*2000*t+(3*pi/4));
 subplot(2,2,1);
 plot(t,xin);
 grid on;
